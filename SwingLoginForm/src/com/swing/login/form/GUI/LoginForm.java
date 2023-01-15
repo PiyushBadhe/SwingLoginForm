@@ -29,6 +29,9 @@ public class LoginForm {
 			panel.add(passwordText);
 			panel.add(cancelButton);
 			panel.add(loginButton);
+			
+			
+			
 		}
 	
 	
