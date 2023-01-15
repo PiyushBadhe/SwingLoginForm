@@ -10,6 +10,14 @@ import javax.swing.JTextField;
 
 public class LoginForm {
 
+	public static boolean checkData (String userName, String password) {
+		if (userName.equals("piyushbadhe") && password.equals("12345678")) {
+			return true;
+		}
+		return false;
+	}
+	
+	
 		// Method to place components
 		public static void addComponentsToPanel (JPanel panel) {
 			
@@ -30,7 +38,13 @@ public class LoginForm {
 			panel.add(cancelButton);
 			panel.add(loginButton);
 			
-			
+			/*
+			  	- Our goal is to develop a login module that authenticates users based on a predefined username and password
+			 	- Hence adding actions or functionalities to the login and cancel buttons
+			 	- First, creating a static boolean method first hand (before adding Components) to check whether the username and password is correct or not
+			 	- Meaning, when user enters username and password and hit login button, firstly this checkData() method
+			 	  will check the data and if its correct, it will authenticate the user and displays a message else an error message will be shown
+			 */
 			
 		}
 	
