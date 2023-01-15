@@ -18,33 +18,33 @@ public class LoginForm {
 	}
 	
 	
-		// Method to place components
-		public static void addComponentsToPanel (JPanel panel) {
+	// Method to place components
+	public static void addComponentsToPanel (JPanel panel) {
 			
-			JLabel userLabel = new JLabel("Username");
-			JTextField userText = new JTextField();
-			JLabel passwordLabel = new JLabel("Password");
-			JTextField passwordText = new JTextField();
+		JLabel userLabel = new JLabel("Username");
+		JTextField userText = new JTextField();
+		JLabel passwordLabel = new JLabel("Password");
+		JTextField passwordText = new JTextField();
 			
-			// Buttons
-			JButton cancelButton = new JButton("Cancel");
-			JButton loginButton = new JButton("Login");
+		// Buttons
+		JButton cancelButton = new JButton("Cancel");
+		JButton loginButton = new JButton("Login");
+		
+		// Adding Components to panel
+		panel.add(userLabel);
+		panel.add(userText);
+		panel.add(passwordLabel);
+		panel.add(passwordText);
+		panel.add(cancelButton);
+		panel.add(loginButton);
 			
-			// Adding Components to panel
-			panel.add(userLabel);
-			panel.add(userText);
-			panel.add(passwordLabel);
-			panel.add(passwordText);
-			panel.add(cancelButton);
-			panel.add(loginButton);
-			
-			/*
-			  	- Our goal is to develop a login module that authenticates users based on a predefined username and password
-			 	- Hence adding actions or functionalities to the login and cancel buttons
-			 	- First, creating a static boolean method first hand (before adding Components) to check whether the username and password is correct or not
-			 	- Meaning, when user enters username and password and hit login button, firstly this checkData() method
-			 	  will check the data and if its correct, it will authenticate the user and displays a message else an error message will be shown
-			 */
+		/*
+		  	- Our goal is to develop a login module that authenticates users based on a predefined username and password
+		 	- Hence adding actions or functionalities to the login and cancel buttons
+		 	- First, creating a static boolean method first hand (before adding Components) to check whether the username and password is correct or not
+		 	- Meaning, when user enters username and password and hit login button, firstly this checkData() method
+		 	  will check the data and if its correct, it will authenticate the user and displays a message else an error message will be shown
+		 */
 			
 		}
 	
