@@ -7,7 +7,13 @@
     With the help of the CANCEL button, users can terminate login and exit the GUI.
 </p>
 
-**Features:**
+**Steps we will be implementing:**
+- [ ] 1. Create a blueprint of the UI
+- [ ] 2. Create and place the components in the frame
+- [ ] 3. Dry-Run of UI
+- [ ] 4. 
+
+**Features to include:**
 
 - Individual input text fields for both username and password
 - Cancel button to terminate login and exit application    
@@ -15,7 +21,7 @@
 - Close application button (default swing button)
 
 
-> Taking this idea into code, a best way to create and place the components is to use `GridLayout` of 3 rows and 2 columns as per the UI Layout idea shown below
+> Turning this idea into UI via code, the best way to create and place the components is to use a `Grid Layout` of 3 rows and 2 columns, as per the UI Layout shown below:
 >> | Column1 | Column2 |
 >> | :---------- | :------------ |
 >> | Row1-Label1 | Row1-TextField1 |
@@ -32,5 +38,8 @@
 >>>   <li>Button1 - LOGIN</li>
 >>> </ul>
 
-<p align="center"><img src="SwingLoginForm/projectImages/basic%20idea.png" width="400"></p>
-<h4 align="center">Basic UI idea of the Login Form</h4>
+
+<p>Visualizing the UI, it will look somewhat like this</p>
+<p align="center"><img src="SwingLoginForm/projectImages/basic%20idea.png" width="400"><h4 align="center">Basic UI idea of the Login Form</h4></p>
+
+
